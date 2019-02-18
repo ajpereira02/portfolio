@@ -1,0 +1,68 @@
+.contact-section {
+  text-align: center;
+  background-color: #e2e2e2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.contact-section h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  position: relative;
+}
+
+.contact-section h2:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #85af4b;
+}
+
+.social-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.social-container i {
+  float: left;
+  margin-top: 17px;
+  margin-right: 20px;
+  font-size: 24px;
+  color: #85af4b;
+}
+
+.col-1 p,
+.col-2 p,
+.col-3 p {
+  display: inline-block;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+  width: 33.333333%;
+  display: inline-block;
+  float: left;
+}
+
+.col-3 p {
+  margin-bottom: 0;
+  margin-top: 1px;
+  padding-top: 100px;
+}
+
+.text-bold {
+  color: #333;
+  font-weight: bold;
+}
