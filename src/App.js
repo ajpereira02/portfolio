@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Header from "./component/Header/Header";
 import Aboutme from "./component/Aboutme/Aboutme";
 import Skills from "./component/Skills/Skills";
+import Projects from "./component/Projects/Projects";
 import "./App.css";
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Header />
         <Aboutme />
         <Skills />
+        <Projects />
       </div>
     );
   }
