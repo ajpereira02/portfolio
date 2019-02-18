@@ -54,6 +54,7 @@
   width: 33.333333%;
   display: inline-block;
   float: left;
+  text-decoration: none;
 }
 
 .col-3 p {
@@ -65,4 +66,5 @@
 .text-bold {
   color: #333;
   font-weight: bold;
+  text-decoration: none;
 }

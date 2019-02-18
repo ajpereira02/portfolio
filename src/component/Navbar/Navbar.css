@@ -9,13 +9,13 @@ nav {
   }
   
    .logo {
-     margin: 20px;
+     margin: 12px;
      color: white;
    }
   
    .logo i {
      color: white;
-     font-size: 40px;
+     font-size: 35px;
      margin-right: 20px
    }
   
@@ -42,8 +42,8 @@ nav {
    .menu ul li a {
        text-decoration: none;
        color: white;
-       
-       padding: 20px 10px 20px 10px;
+       font-size: 18px;
+       padding: 18px 6px 18px 6px;
    }
   
    .menu ul li a:hover {
