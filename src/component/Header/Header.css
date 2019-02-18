@@ -1,0 +1,50 @@
+header {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center; 
+    /* background-attachment: fixed;
+    background-position-y: 20px;  */
+  }
+
+  header p {
+    margin: 0;
+  }
+ 
+  .hero-container {
+    text-align: center;
+    padding-top: 60px;
+  }
+ 
+  .btn-work, .btn-contact {
+   font-weight: bold;
+   border-radius: 20px;
+   text-decoration: none;
+   padding: 10px 25px;
+   display: inline-block;
+   font-size: 17px;
+  }
+ 
+  .btn-work {
+    background-color: #85af4b;
+    color: white;
+    margin: 15px 10px;
+  }
+ 
+  .btn-work:hover {
+    background-color: white;
+    color:#85af4b;
+    transition: all 0.5s ease;
+  }
+ 
+  .btn-contact {
+    background-color: white;
+    color: #85af4b;
+  }
+ 
+  .btn-contact:hover {
+   background-color: #85af4b;
+   color:white;
+   transition: all 0.5s ease;
+ }

@@ -1,0 +1,53 @@
+nav {
+    background-color: rgba(5,5,5,.678);
+   }
+  
+   .nav {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+   .logo {
+     margin: 20px;
+     color: white;
+   }
+  
+   .logo i {
+     color: white;
+     font-size: 25px;
+     margin-right: 20px
+   }
+  
+   .logo, .menu {
+       display:inline-block;
+   }
+  
+   .menu {
+     float:right;
+     margin: 20px;
+   }
+  
+   .menu ul {
+     list-style: none;
+     padding-left: 0px;
+     margin: 0;
+   }
+  
+   .menu ul li {
+       display: inline-block;
+       margin-right: 20px;
+   }
+  
+   .menu ul li a {
+       text-decoration: none;
+       color: white;
+       
+       padding: 20px 10px 20px 10px;
+   }
+  
+   .menu ul li a:hover {
+       background-color: grey;
+       color:white;
+       transition: all 0.5s ease;
+   }
