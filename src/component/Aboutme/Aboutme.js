@@ -7,7 +7,7 @@ export default function Header() {
       <h2>about me</h2>
 
       <div class="col-left">
-        <img src="img/springboard.jpg" alt="ashley photo" />
+        <img src="../images/springboard.jpg" alt="ashley photo" />
       </div>
 
       <div class="col-right">
