@@ -1,4 +1,5 @@
 import React from "react";
+import Images from "../images/springboard.jpg";
 import './Aboutme.css';
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
       <h2>about me</h2>
 
       <div class="col-left">
-        <img src="../images/springboard.jpg" alt="ashley photo" />
+        <img src={Images} alt="ashley photo" />
       </div>
 
       <div class="col-right">
