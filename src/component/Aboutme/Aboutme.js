@@ -13,7 +13,7 @@ export default function Header() {
       <div class="col-right">
         <h4>Ashley Pereira</h4>
         <p>
-          Hey! thanks for visiting my page. I’m Ashley a Full Stack Developer. I
+          Hey! thanks for visiting my page. I’m Ashley a Full Web Stack Developer. I
           am currently enrolled at the Kodiri bootcamp learning and getting
           familiarising myself with HTML/CSS, Javascript, Reactjs, Nodejs,
           VisualStudio, GitHub and agile methodology.
