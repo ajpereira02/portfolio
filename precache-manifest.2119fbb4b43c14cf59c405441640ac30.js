@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "07b71f6d759d13765e0a4037a48c6f24",
+    "url": "/portfolio/static/media/springboard.07b71f6d.jpg"
+  },
+  {
     "revision": "b503d7812ca4698ab641b2ae7634670a",
     "url": "/portfolio/static/media/hero.b503d781.jpg"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.0fad4c0f.js"
   },
   {
-    "revision": "198d5855ead6a9018500",
-    "url": "/portfolio/static/js/main.198d5855.chunk.js"
+    "revision": "554068e76c1802e86170",
+    "url": "/portfolio/static/js/main.554068e7.chunk.js"
   },
   {
-    "revision": "063ce5bc9f8a30d66648",
-    "url": "/portfolio/static/js/2.063ce5bc.chunk.js"
+    "revision": "ba1ca5ba3f9c1e3c91ad",
+    "url": "/portfolio/static/js/2.ba1ca5ba.chunk.js"
   },
   {
-    "revision": "198d5855ead6a9018500",
-    "url": "/portfolio/static/css/main.902c163d.chunk.css"
+    "revision": "554068e76c1802e86170",
+    "url": "/portfolio/static/css/main.9976e92b.chunk.css"
   },
   {
-    "revision": "82e413ad2c199779a7609c48ae982e41",
+    "revision": "608e17df7aa661c0b49f15c10d9feffc",
     "url": "/portfolio/index.html"
   }
 ];
