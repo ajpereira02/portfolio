@@ -8,22 +8,23 @@ export default function Header() {
       <h2>about me</h2>
 
       <div class="col-left">
-        <img src={Images} alt="ashley photo" />
+        <img src={Images} alt="ashley's photo" />
+        <h5>Charity event for Springboard UK Ltd. April 2015</h5>
       </div>
 
       <div class="col-right">
         <h4>Ashley Pereira</h4>
         <p>
-          Hey! thanks for visiting my page. I’m Ashley a Full Stack Web Developer. I
-          am currently enrolled at the Kodiri bootcamp learning and getting
+          Hey! Thanks for visiting my page. I’m Ashley a Full Stack Web Developer. I
+          am currently enrolled at the Kodiri bootcamp learning and 
           familiarising myself with HTML/CSS, Javascript, Reactjs, Nodejs,
           VisualStudio, GitHub and agile methodology.
         </p>
         <p>
-          When I am not coding I like to explore the city for new food markets
-          in London, and other cities when I travel. Sharpening my photography
-          skills, reading articles on latest technologies, socialising with my
-          friends and family.
+        When I’m not coding, you can find me with my camera in one hand and my 
+        eye aiming for the next adventure. I am a BIG foodie and love to experience 
+        cuisines from around the world. The street markets in London are one my 
+        favourite things in the world. 
         </p>
 
         <p>

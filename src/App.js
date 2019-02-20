@@ -5,19 +5,22 @@ import Aboutme from "./component/Aboutme/Aboutme";
 import Skills from "./component/Skills/Skills";
 import Projects from "./component/Projects/Projects";
 import Contacts from "./component/Contacts/Contacts";
+import { HashRouter } from "react-router-dom";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Header />
-        <Aboutme />
-        <Skills />
-        <Projects />
-        <Contacts />
-      </div>
+      <HashRouter>
+        <div className="App">
+          <Navbar />
+          <Header />
+          <Aboutme />
+          <Skills />
+          <Projects />
+          <Contacts />
+        </div>
+      </HashRouter>
     );
   }
 }
