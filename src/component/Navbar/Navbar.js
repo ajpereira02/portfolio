@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -31,19 +30,30 @@ export default function Navbar() {
       <div class="menu">
         <ul>
           <li>
-            <Link to="home">Home</Link>
+            {" "}
+            <a className="smoothscroll" href="#home">
+              Home
+            </a>
           </li>
           <li>
-            <Link to="aboutme">About</Link>
+            <a className="smoothscroll" href="#About">
+              About
+            </a>
           </li>
           <li>
-            <Link to="skills">Skills</Link>
+            <a className="smoothscroll" href="#Skills">
+              Skills
+            </a>
           </li>
           <li>
-            <Link to="projects">Projects</Link>
+            <a className="smoothscroll" href="#Projects">
+              Projects
+            </a>
           </li>
           <li>
-            <Link to="contact">Contact</Link>
+            <a className="smoothscroll" href="#Contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>

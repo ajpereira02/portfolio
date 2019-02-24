@@ -4,7 +4,7 @@ import './Aboutme.css';
 
 export default function Header() {
   return (
-    <div class="about-me">
+    <div class="about-me" id = "about-me">
       <h2>about me</h2>
 
       <div class="col-left">
@@ -33,7 +33,7 @@ export default function Header() {
           bringing dreams to reality through the magic of entertainment.
         </p>
         <p>Looking for a Full Stack Developer who is keen to learn?</p>
-        <a href="">CONTACT ME</a>
+        <a className="smoothscroll" href="#Contact-Me" id >CONTACT ME</a>
       </div>
     </div>
   );
