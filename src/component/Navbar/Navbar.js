@@ -31,7 +31,7 @@ export default function Navbar() {
         <ul>
           <li>
             {" "}
-            <a className="scroll" href="#Home">
+            <a className="scroll" href="#Header">
               Home
             </a>
           </li>
