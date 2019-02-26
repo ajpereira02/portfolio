@@ -3,7 +3,7 @@ import './Projects.css';
 
 export default function Header() {
   return (
-    <div class="my-projects">
+    <div class="my-projects" id="Projects">
       <h2>Projects</h2>
       <div class="project1">
         <div class="overlay">

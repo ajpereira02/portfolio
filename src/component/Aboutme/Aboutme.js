@@ -4,11 +4,11 @@ import './Aboutme.css';
 
 export default function Header() {
   return (
-    <div class="about-me" id = "about-me">
+    <div class="about-me" id = "About">
       <h2>about me</h2>
 
       <div class="col-left">
-        <img src={Images} alt="ashley's photo" />
+        <img src={Images} alt="ashley's " />
         <h5>Charity event for Springboard UK Ltd. April 2015</h5>
       </div>
 

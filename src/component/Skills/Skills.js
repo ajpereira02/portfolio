@@ -3,7 +3,7 @@ import './Skill.css';
 
 export default function Header() {
   return (
-    <div class="my-skills">
+    <div class="my-skills" id="Skills">
       <h2>skills</h2>
 
       <div class="skill-item-1">

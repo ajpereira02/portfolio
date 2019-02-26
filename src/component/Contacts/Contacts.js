@@ -3,7 +3,7 @@ import "./Contacts.css";
 
 export default function Header() {
   return (
-    <div class="contact-section">
+    <div class="contact-section" id="Contact">
       <h2>Contact Me</h2>
 
       <div class="social-container">

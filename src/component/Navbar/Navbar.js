@@ -31,27 +31,27 @@ export default function Navbar() {
         <ul>
           <li>
             {" "}
-            <a className="smoothscroll" href="#home">
+            <a className="scroll" href="#Home">
               Home
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#About">
+            <a className="scroll" href="#About">
               About
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#Skills">
+            <a className="scroll" href="#Skills">
               Skills
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#Projects">
+            <a className="scroll" href="#Projects">
               Projects
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#Contact">
+            <a className="scroll" href="#Contact">
               Contact
             </a>
           </li>
