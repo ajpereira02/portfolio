@@ -1,15 +1,14 @@
 import React from "react";
-import Images from "../images/springboard.jpg";
+import Images from "../images/Ashley.jpg";
 import './Aboutme.css';
 
 export default function Header() {
   return (
-    <div class="about-me" id = "About">
+    <div class="about-me" id ="About">
       <h2>about me</h2>
 
       <div class="col-left">
         <img src={Images} alt="ashley's " />
-        <h5>Charity event for Springboard UK Ltd. April 2015</h5>
       </div>
 
       <div class="col-right">
@@ -33,7 +32,7 @@ export default function Header() {
           bringing dreams to reality through the magic of entertainment.
         </p>
         <p>Looking for a Full Stack Developer who is keen to learn?</p>
-        <a className="smoothscroll" href="#Contact-Me" id >CONTACT ME</a>
+        <a href="#Contact-Me" id="Contact" >CONTACT ME</a>
       </div>
     </div>
   );
