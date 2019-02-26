@@ -32,7 +32,7 @@ export default function Header() {
           bringing dreams to reality through the magic of entertainment.
         </p>
         <p>Looking for a Full Stack Developer who is keen to learn?</p>
-        <a href="#Contact-Me" id="Contact" >CONTACT ME</a>
+        <a href="#Contact-Me" id="Contacts" >CONTACT ME</a>
       </div>
     </div>
   );
