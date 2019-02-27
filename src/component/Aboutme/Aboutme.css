@@ -1,5 +1,4 @@
 .about-me {
-    width:100%;
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -63,4 +62,11 @@
   
   .about-me .col-left img {
     max-width: 75%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .about-me {
+      display: flex;
+      flex-direction: column;
+    }
   }

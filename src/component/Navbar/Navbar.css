@@ -12,7 +12,7 @@ nav {
   }
   
    .logo {
-     margin: 12px;
+     margin: 8px;
      color: white;
    }
   
@@ -28,7 +28,7 @@ nav {
   
    .menu {
      float:right;
-     margin: 20px;
+     margin: 15px;
    }
   
    .menu ul {

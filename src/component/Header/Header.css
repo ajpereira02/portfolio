@@ -52,7 +52,7 @@ header p {
   transition: all 0.5s ease;
 }
 
-@media only screen and (max-width: 60px) {
+@media only screen and (max-width: 900px) {
   .container {
     display: flex;
     flex-direction: column;
