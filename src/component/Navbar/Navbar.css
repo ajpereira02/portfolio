@@ -1,56 +1,93 @@
 nav {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    padding: 0px;
-   }
-  
-   .nav {
-    content: '';
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+}
+
+.nav {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo {
+  margin: 8px;
+  color: white;
+}
+
+.logo i {
+  color: white;
+  font-size: 38px;
+  margin-right: 20px;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+}
+
+.menu {
+  float: right;
+  margin: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 18px 6px 18px 6px;
+}
+
+.menu ul li a:hover {
+  background-color: grey;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+/*--------Hamburger Menu--------*/
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+.menu {
+  display: none;
+}
+
+.nav {
+  display: block;
+  align-items: left;
+  padding: 10px 30px;
+  justify-content: space-around;
+  content: none;
+}
+
+.hamburger {
     display: block;
-    clear: both;
   }
-  
-   .logo {
-     margin: 8px;
-     color: white;
-   }
-  
-   .logo i {
-     color: white;
-     font-size: 38px;
-     margin-right: 20px
-   }
-  
-   .logo, .menu {
-       display:inline-block;
-   }
-  
-   .menu {
-     float:right;
-     margin: 15px;
-   }
-  
-   .menu ul {
-     list-style: none;
-     padding-left: 0px;
-     margin: 0;
-   }
-  
-   .menu ul li {
-       display: inline-block;
-       margin-right: 20px;
-   }
-  
-   .menu ul li a {
-       text-decoration: none;
-       color: white;
-       font-size: 18px;
-       padding: 18px 6px 18px 6px;
-   }
-  
-   .menu ul li a:hover {
-       background-color: grey;
-       color:white;
-       transition: all 0.5s ease;
-   }
+
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 50px;
+    height: 5px;
+    display: block;
+    background-color: white;
+    margin: 8px auto;
+  }
+}
