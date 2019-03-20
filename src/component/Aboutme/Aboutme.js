@@ -32,9 +32,7 @@ export default function Header() {
           bringing dreams to reality through the magic of entertainment.
         </p>
         <p>Looking for a Full Stack Developer who is keen to learn?</p>
-        <a className="scroll" href="#Contact">
-              Contact
-            </a>
+        <a className="scroll" href="#Contact">Contact</a>
       </div>
     </div>
   );
