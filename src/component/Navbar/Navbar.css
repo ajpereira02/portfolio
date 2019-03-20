@@ -89,5 +89,13 @@ nav {
     display: block;
     background-color: white;
     margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger.is-active .line:nth-child(2){
+    opacity: 0;
   }
 }
