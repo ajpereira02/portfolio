@@ -57,14 +57,6 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-
-    <div class="hamburger">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-
-    </div>
-
     </nav>
   );
 }
